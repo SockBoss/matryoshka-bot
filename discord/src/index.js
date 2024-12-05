@@ -11,11 +11,11 @@ client.once(Discord.Events.ClientReady, (client) => {
     console.log(`${client.user.tag} ready.`);
 });
 
-if (config.twitchAlerts) {
+if (config.modules.twitch.enabled) {
     // poll twitch 
 } 
 
-if (config.youtubeAlerts) {
+if (config.modules.youtube.enabled) {
     // poll youtube 
 }
 

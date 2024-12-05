@@ -1,4 +1,11 @@
 {
-    "twitchAlerts": true,
-    "youtubeAlerts": true
+    "modules": {
+        "twitch": {
+            "enabled": true
+        }, 
+        "youtube": {
+            "enabled": true,
+            "lastVideo": null
+        }
+    }
 }
